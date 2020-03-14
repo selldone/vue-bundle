@@ -40,4 +40,4 @@ You can simulate app loading procedure by adding sop_id and api to your local ap
 http://localhost:8000?api=*{api_key}*&shop_id=*{shop_id}*
 ```
 
-![Application First Page](https://github.com/selldone/vue-bundle/readme/firs-page.png)
+![Application First Page](/readme/firs-page.png)
