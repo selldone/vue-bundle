@@ -3,6 +3,10 @@
 [![npm version](https://img.shields.io/npm/v/@selldone/vue-bundle.svg?style=flat)](https://www.npmjs.com/package/@selldone/vue-bundle) 
 [![Build Status](https://travis-ci.com/selldone/vue-bundle.svg?branch=master)](https://travis-ci.com/selldone/vue-bundle)
 [![codecov](https://codecov.io/gh/selldone/vue-bundle/branch/master/graph/badge.svg)](https://codecov.io/gh/selldone/vue-bundle)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/selldone/vue-bundle/graphs/commit-activity)
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://selldone.com)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://selldone.com/faq)
+
 
 ![SELLDONE VUE BUNDLE](/readme/github-vue-bundle-small.png)
 
