@@ -1,4 +1,8 @@
 # [Selldone Vue App Bundle](https://selldone.com/)
+
+![SELLDONE VUE BUNDLE](/readme/github-vue-bundle-small.png)
+
+
 **Vue Bundle** is a ready-to-use project designed to help developers create apps for merchants who use Selldone store builder and e-commerce platform. 
 
 Selldone, as an eCommerce platform, operates like an angel for the growth of businesses. Whether you have a small brick and mortar store or a large company, you need to showcase your product on the internet. Lower operating costs and greater flexibility.Selldone used to build online stores. We are providing an always-improving e-commerce management toolchain that gains new features every weak, like integrating store administration and visual programming interface to create custom automation processes or AI integration. 
