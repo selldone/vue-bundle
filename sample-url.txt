@@ -1,1 +1,0 @@
-http://192.168.1.9:8080?api=1QjxOJZ9hzsiqqd0P5uih1IHsGkSQFlEy7smZMpCsloF8420bEQ3Rh23Aqt0PDV9&shop_id=1
