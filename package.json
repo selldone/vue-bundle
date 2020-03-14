@@ -11,8 +11,7 @@
     "url": "https://github.com/selldone/vue-bundle/issues"
   },
   "publishConfig": {
-    "access": "public",
-    "registry":"https://npm.pkg.github.com/"
+    "access": "public"
   },
   "sideEffects": [
     "**/*.css",
@@ -32,7 +31,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+
+
+    "npm-publish": "npm publish"
+
+
+
   },
   "dependencies": {
     "axios": "^0.19.2",

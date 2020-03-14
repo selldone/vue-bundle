@@ -1,5 +1,9 @@
 # [Selldone Vue App Bundle](https://selldone.com/)
 
+[![npm version](https://img.shields.io/npm/v/@selldone/vue-bundle.svg?style=flat)](https://www.npmjs.com/package/@selldone/vue-bundle) 
+[![Build Status](https://travis-ci.com/selldone/vue-bundle.svg?branch=master)](https://travis-ci.com/selldone/vue-bundle)
+[![codecov](https://codecov.io/gh/selldone/vue-bundle/branch/master/graph/badge.svg)](https://codecov.io/gh/selldone/vue-bundle)
+
 ![SELLDONE VUE BUNDLE](/readme/github-vue-bundle-small.png)
 
 
@@ -66,6 +70,8 @@ You must set **redirect url** and **scope** by metas in your application pages's
 | app-redirect-url      | Client app redirect URL | ✔ |
 | app-scope      | Access scopes      |   ✔ |
 | app-access-token | Customer access token      |    ❌ |
+
+
 
 
 ```sh
