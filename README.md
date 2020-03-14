@@ -31,7 +31,7 @@ yarn build
 ```
 
 ## Test local application
-You can simulate app loading procedure by adding sop_id and api to your local app's url query.
+Guide to run full feature Selldone applications on your local machine.
 
 
 
@@ -40,9 +40,41 @@ You can simulate app loading procedure by adding sop_id and api to your local ap
 http://localhost:8000?api={api_key}&shop_id={shop_id}
 ```
 
+### URL
+You can simulate app loading procedure by adding sop_id and api to your local app's url query.
+
+
 **api_key** : Your application API key. Find in Shuttle > Company > App > API Key
 
-**shop_id** : Merchant shop ID. find in your admin store url => https://selldone.com/shuttle/shop/ **1 (shop id)**
+**shop_id** : Merchant shop ID. find in your admin store url => https://selldone.com/shuttle/shop/ **1 (YOUR SHOP ID)**
+
 
 
 ![Application First Page](/readme/firs-page.png)
+
+
+### Client config
+You must set **redirect url** and **scope** by metas in your application pages's header.
+
+
+| Meta        | Description           | Require  |
+| ------------- |:-------------:| -----:|
+| app-redirect-url      | Client app redirect URL | ✔ |
+| app-scope      | Access scopes      |   ✔ |
+| app-access-token | Customer access token      |    ❌ |
+
+
+```sh
+# Page header (index.html)
+<meta name="app-redirect-url" content="APP REDIRECT URL Ex. localhost:8000 or your-domain.com/sample-app">
+<meta name="app-scope" content="ACCESS SCOPES HERE Ex. profile shop-products shop-warehouse shop-process-center">
+```
+
+#### Optional access token
+Access token has been saved in page sessions! sessionStorage is similar to localStorage; the difference is that while data in localStorage doesn't expire, data in sessionStorage is cleared when the page session ends.
+You can save access token in your secure database (Your server) and provide that in the **app-access-token** meta.
+
+```sh
+# Page header (index.html)
+<meta name="app-access-token" content="ACCESS TOKEN HERE">
+```
