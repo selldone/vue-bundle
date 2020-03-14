@@ -19,6 +19,4 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
-!/sample-url.txt
-
-!/yarn-error.log
+sample-url.txt
