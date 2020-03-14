@@ -42,7 +42,7 @@ http://localhost:8000?api={api_key}&shop_id={shop_id}
 
 **api_key** : Your application API key. Find in Shuttle > Company > App > API Key
 
-**shop_id** : Merchant shop ID. find in your admin store url => https://selldone.com/shuttle/shop/**1 (shop id)**
+**shop_id** : Merchant shop ID. find in your admin store url => https://selldone.com/shuttle/shop/ **1 (shop id)**
 
 
 ![Application First Page](/readme/firs-page.png)
