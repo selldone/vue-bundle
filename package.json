@@ -11,7 +11,8 @@
     "url": "https://github.com/selldone/vue-bundle/issues"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry":"https://npm.pkg.github.com/"
   },
   "sideEffects": [
     "**/*.css",
