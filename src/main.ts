@@ -9,37 +9,30 @@ Vue.config.productionTip = false;
 import "./index.ts";
 import vuetify from "./plugins/vuetify";
 
-
 //█████████████████████████████████████████████████████████████
 //――――――――――――――――――――― Global Helper Methods ―――――――――――――――――――――
 //█████████████████████████████████████████████████████████████
 
-
 Vue.mixin({
-    data() {
-        return {
-            Selldone:window.Selldone,
+  data() {
+    return {
+      Selldone: window.Selldone,
 
-            shopId: window.Selldone.shopId,
-            appApiKey: window.Selldone.appApiKey,
-            redirectUrl: window.Selldone.redirectUrl,
-            scope: window.Selldone.scope,
-            accessToken: window.Selldone.accessToken,
-            expiresIn: window.Selldone.expiresIn
-        };
-    },
+      shopId: window.Selldone.shopId,
+      appApiKey: window.Selldone.appApiKey,
+      redirectUrl: window.Selldone.redirectUrl,
+      scope: window.Selldone.scope,
+      accessToken: window.Selldone.accessToken,
+      expiresIn: window.Selldone.expiresIn
+    };
+  },
 
-
-    computed: {},
-
-
-
+  computed: {}
 });
 
 new Vue({
-    router,
-    store,
-    vuetify,
-    render: h => h(App)
+  router,
+  store,
+  vuetify,
+  render: h => h(App)
 }).$mount("#app");
-

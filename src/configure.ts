@@ -17,11 +17,8 @@ export interface Selldone {
   accessToken: string | null; // tokenType+' '+ accessToken
   expiresIn: string | number | null;
 
-  UserApi:UserApi,
-  ShopApi:ShopApi,
-
-
-
+  UserApi: UserApi;
+  ShopApi: ShopApi;
 }
 
 declare global {

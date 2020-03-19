@@ -25,19 +25,28 @@
     "components",
     "api"
   ],
-
-
-
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-
-
-    "npm-publish": "npm publish"
-
-
-
+    "npm-publish": "npm publish",
+    "test": "jest --passWithNoTests",
+    "codecov": "codecov"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/*.{js,vue}",
+      "!**/node_modules/**",
+      "!**/coverage/**"
+    ],
+    "coverageReporters": [
+      "html",
+      "text-summary"
+    ]
   },
   "dependencies": {
     "axios": "^0.19.2",
@@ -62,15 +71,21 @@
     "@vue/cli-service": "^4.2.0",
     "@vue/eslint-config-prettier": "^6.0.0",
     "@vue/eslint-config-typescript": "^5.0.1",
+    "@vue/test-utils": "^1.0.0-beta.32",
+    "babel-jest": "^25.1.0",
+    "chai": "^4.2.0",
+    "codecov": "^3.6.5",
     "eslint": "^6.8.0",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-vue": "^6.2.2",
+    "jest": "^25.1.0",
     "node-sass": "^4.12.0",
     "prettier": "^1.19.1",
     "sass": "^1.19.0",
     "sass-loader": "^8.0.2",
     "typescript": "~3.7.5",
     "vue-cli-plugin-vuetify": "^2.0.5",
+    "vue-jest": "^3.0.5",
     "vue-template-compiler": "^2.6.11",
     "vuetify-loader": "^1.4.3"
   },
