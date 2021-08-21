@@ -19,6 +19,7 @@ Visit the [**Selldone Apps**](https://selldone.com/apps) to learn more.
 For more information about creating apps for the Selldone merchants and customers, take a look at the [development documentations](https://selldone.com/help).
 
 ## API documentation
+Visit the [Free Ecommerce Platform](https://selldone.com) to learn more about Selldone.
 
 Visit the [Selldone Shop Owner API Playground](https://selldone.com/apps/api/owner) to learn more about Selldone's API.
 
