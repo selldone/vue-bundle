@@ -1,4 +1,9 @@
-# [Selldone Vue App Bundle](https://selldone.com/)
+
+:warning: **Deprecated** - Please use the official project to create storefront layouts. For more information and to get started, visit the official repository at [https://github.com/selldone/storefront](https://github.com/selldone/storefront).
+
+---
+
+# [Selldone Vue App Bundle](https://selldone.com/) 
 
 [![npm version](https://img.shields.io/npm/v/@selldone/vue-bundle.svg?style=flat)](https://www.npmjs.com/package/@selldone/vue-bundle) 
 [![Build Status](https://travis-ci.com/selldone/vue-bundle.svg?branch=master)](https://travis-ci.com/selldone/vue-bundle)
